@@ -1,0 +1,40 @@
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="id-JBRZWB44UNOF" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd">
+  <name xml:lang="en">new model</name>
+  <elements>
+    <element identifier="id-600A5ZL34OJF" xsi:type="Goal">
+      <name xml:lang="en">1.3 System Overview: The Future Digital System will be composed of the necessary technology and business practices that will enable GPO to ingest, manage, preserve, and provide access to content that is disseminated in hard Copy and to content that is electronically stored (Main GOAL).</name>
+    </element>
+    <element identifier="id-RXMQ7LS6HFT7" xsi:type="Goal">
+      <name xml:lang="en">The Future Digital System tools and content must be accessible.</name>
+    </element>
+    <element identifier="id-CPP02X7R7I3S" xsi:type="Goal">
+      <name xml:lang="en">Additionally, GPO has failed to update its technological abilities to keep pace with changes in the information disse mination environment , and as a result it must customers and information users and stay alert to future trends and changing needs .</name>
+    </element>
+    <element identifier="id-5DCHUDC4G6YN" xsi:type="Goal">
+      <name xml:lang="en">Additionally, GPO has failed to update its technological abilities to keep pace with changes in the information disse mination environment , and as a result it must customers and information users and stay alert to future trends and changing needs .</name>
+    </element>
+    <element identifier="id-G2DR45OXE2IN" xsi:type="Principle">
+      <name xml:lang="en">GPO believes that manag ement of both electronic and non - electronic content should be an integrated process that provides maximum efficiency and value for users .</name>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="id-X95OGY4S39BD" source="id-600A5ZL34OJF" target="id-RXMQ7LS6HFT7" xsi:type="Association"/>
+    <relationship identifier="id-LJFBIDKJ74TI" source="id-600A5ZL34OJF" target="id-CPP02X7R7I3S" xsi:type="Association"/>
+    <relationship identifier="id-Y63OSY8DICM8" source="id-600A5ZL34OJF" target="id-5DCHUDC4G6YN" xsi:type="Association"/>
+  </relationships>
+  <views>
+    <diagrams>
+      <view identifier="id-DWJYWKFK5T49" xsi:type="Diagram">
+        <name xml:lang="en">default view</name>
+        <node identifier="id-Y390VTI4KO31" x="578" y="218" w="183" h="171" elementRef="id-600A5ZL34OJF" xsi:type="Element"/>
+        <node identifier="id-1JP1K7R9U1XW" x="628" y="268" w="233" h="221" elementRef="id-RXMQ7LS6HFT7" xsi:type="Element"/>
+        <node identifier="id-QOPXODJ2SJQG" x="678" y="318" w="283" h="271" elementRef="id-CPP02X7R7I3S" xsi:type="Element"/>
+        <node identifier="id-P7WAWNLAUB6B" x="728" y="368" w="333" h="321" elementRef="id-5DCHUDC4G6YN" xsi:type="Element"/>
+        <node identifier="id-YVCBN59UDB23" x="778" y="418" w="383" h="371" elementRef="id-G2DR45OXE2IN" xsi:type="Element"/>
+        <connection identifier="id-CEN9NKHDFVLY" relationshipRef="id-X95OGY4S39BD" source="id-Y390VTI4KO31" target="id-1JP1K7R9U1XW" xsi:type="Relationship"/>
+        <connection identifier="id-1JGTBV5Z5DIA" relationshipRef="id-LJFBIDKJ74TI" source="id-Y390VTI4KO31" target="id-QOPXODJ2SJQG" xsi:type="Relationship"/>
+        <connection identifier="id-0X3ABA6WG1LG" relationshipRef="id-Y63OSY8DICM8" source="id-Y390VTI4KO31" target="id-P7WAWNLAUB6B" xsi:type="Relationship"/>
+      </view>
+    </diagrams>
+  </views>
+</model>
